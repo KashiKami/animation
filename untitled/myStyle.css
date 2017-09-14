@@ -5,9 +5,21 @@
     background:red;
     background: url("dragon.png") repeat-x;
     animation:walk 1s steps(3) infinite;
+    position:relative;
+    bottom:34px;
 }
 
 @keyframes walk {
     0% { background-position:0 }
     100% { background-position:-624px }
+}
+
+#sky {
+    background:url(http://i.imgur.com/PhHVjgw.png) repeat-X;
+}
+
+#sea {
+    background:url(http://i.imgur.com/h75XWy8.png) repeat-x;
+    position:relative;
+    top:145px;
 }
